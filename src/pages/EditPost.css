@@ -1,0 +1,104 @@
+
+.edit-post-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-post-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .edit-post-header h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .edit-post-header p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Form Styling */
+  .edit-post-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-post-form input,
+  .edit-post-form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .edit-post-form input[type="text"],
+  .edit-post-form input[type="url"] {
+    width: 100%;
+  }
+  
+  .edit-post-form textarea {
+    height: 200px;
+    resize: none;
+  }
+  
+  /* Button Styles */
+  .edit-post-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .edit-post-buttons button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-post-buttons button.save-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .edit-post-buttons button.save-btn:hover {
+    background-color: #218838;
+  }
+  
+  .edit-post-buttons button.cancel-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .edit-post-buttons button.cancel-btn:hover {
+    background-color: #c82333;
+  }
+  
+  /* Error or Success Message Styling */
+  .message {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+  }
+  
+  .success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .error {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  
